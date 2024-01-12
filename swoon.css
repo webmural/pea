@@ -1,0 +1,33 @@
+@media (prefers-color-scheme: dark) {
+  ::selection {
+    background: turquoise;
+    color: indigo;
+  }
+
+  :root {
+    background-color: indigo;
+    background-image: linear-gradient(.1turn, darkslateblue, #218);
+    color: lemonchiffon;
+  }
+
+  :any-link {
+    color: turquoise;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  ::selection {
+    background: darkviolet;
+    color: seashell;
+  }
+
+  :root {
+    background-color: seashell;
+    background-image: linear-gradient(.33turn, pink, seashell);
+    color: #321;
+  }
+
+  :any-link {
+    color: indigo;
+  }
+}
